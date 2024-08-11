@@ -1,5 +1,7 @@
 # Boston Housing
 
+![alt text](Flowchart.jpg)
+
 ## Description
 
 Behold, the urban tapestry of Boston, a veritable crucible of intellectual prowess and economic dynamism, where the pursuit of domicile becomes a formidable quest. This venerable metropolis, steeped in history and academia, presents a real estate landscape as complex and nuanced as the most intricate chess game.
