@@ -10,6 +10,39 @@ To better understand this complexity, we can examine the Boston Assessment 2021 
 
 In short, Boston’s housing market is more than just a collection of properties; it’s a lively ecosystem that mirrors the city’s past, present, and future. It’s a market that requires patience, offers rewards, and continues to attract those who want to call this historic city home.
 
+## Setup:
+
+Here’s a refined version:
+
+1. Download the CSV file from the following URL: [Boston Property Assessment Data](https://data.boston.gov/dataset/property-assessment/resource/c4b7331e-e213-45a5-adda-052e4dd31d41).
+
+2. Upload the `boston_housing.csv` file to Amazon S3.
+
+3. Create an AWS RDS MySQL database.
+
+4. Install the MySQL Workbench application on Windows and connect it to your AWS RDS MySQL instance.
+
+5. Create a schema and table in the database with the same column names as those in the CSV file.
+
+6. Use the “Server” menu in MySQL Workbench to import data directly from your CSV file into the table.
+
+7. Connect to the AWS RDS MySQL instance using the following variables:
+   a. `DBHostname`
+   b. `Port`
+   c. `DBUsername`
+   d. `Region`
+   e. `ssl_ca`
+
+8. Create the following MySQL procedures:
+   a. `get_building_attributes`
+   b. `get_building_att_and_area`
+
+9. Run the following commands to launch the Bokeh server for EDA files:
+
+   ```bash
+   python -m bokeh serve --show EDA.py
+   python -m bokeh serve --show EDA_2.py
+   ```
 
 ## EDA
 
