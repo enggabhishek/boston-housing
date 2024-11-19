@@ -1,6 +1,6 @@
 # Boston Housing Dataset
 
-![alt text](Flowchart.jpg)
+![alt text](flowchart.jpg)
 
 ## Description
 
@@ -46,9 +46,9 @@ Here’s a refined version:
 
 ## EDA
 
-![alt text](Dashboard.png)
+![alt text](dashboard.png)
 
-![alt text](Dashboard2.png)
+![alt text](dashboard2.png)
 
 
 ## Predictive Analytics
